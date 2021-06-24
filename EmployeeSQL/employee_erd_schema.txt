@@ -12,18 +12,18 @@ hire_date VARCHAR(30)
 Dept-employees
 -
 emp_no INT FK - employees.emp_no
-dept_no VARCHAR(50) FK >- Deparments.dept_no
+dept_no VARCHAR(50) FK >- deparments.dept_no
 
 
-Deparments
+deparments
 -
 dept_no VARCHAR(50) PK
 dept_name VARCHAR(50)
 
 
-Dept-manager
+dept-manager
 -
-dept_no VARCHAR(50) FK >- Deparments.dept_no
+dept_no VARCHAR(50) FK >- deparments.dept_no
 emp_no INT FK - employees.emp_no
 
 
